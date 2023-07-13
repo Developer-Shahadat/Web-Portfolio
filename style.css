@@ -3,6 +3,7 @@
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
     /* background-color: #FD6E0A; */
+    box-sizing: border-box;
 }
 
 /* Nav Bar Style */
@@ -199,4 +200,123 @@ main{
     color:#181818;
     font-size: 16px;
     font-weight: 700;
+}
+/* This is resume style  */
+.resume-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.resume-section{
+    display: flex;
+    margin-top: 70px;
+    margin-left: 176px;
+    gap:50px;
+}
+.education-title{
+    margin-top: 10px;
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.education-dept{
+    margin-top: 30px;
+    color: #474747;
+    font-size: 18px;
+    font-weight: 700;
+}
+.education-institute{
+    margin-top: 10px;
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 600;
+}
+.education-description{
+    margin-top: 20px;
+    color:  #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+.experience-sec{
+
+}
+.experience-title{
+    margin-top: 12px;
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.experience-name{
+    margin-top: 20px;
+    color: #474747;
+    font-size: 18px;
+    font-weight: 700;
+}
+.experience-company{
+    margin-top: 12px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.experience-description{
+    margin-top: 26px;
+    color:  #757575;
+    font-size: 14px;
+    font-weight: 400;
+}
+.resume ,btn-download {
+    margin-left: 600px;
+}
+
+/* This is Footer Section  */
+footer{
+    background-color: rgba(255, 248, 243, 1);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact{
+    margin-bottom: 100px;
+}
+.icons{
+    margin-left: 176px;
+    margin-top: 20px;
+  
+}
+.icons img{
+    padding: 20px;
+   
+}
+.footer-title{
+    margin-right:210px ;
+    color: #181818;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-description{
+    margin-top: 16px;
+    margin-left: 200px;
+    color:  #474747;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.input-message{
+    margin-top: 80px;
+}
+.input-message input{
+    margin-top: 10px;
+    display: block;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    border-radius: 5px;
+} 
+.input-message textarea{
+    border: none;
+    border-radius: 5px;
 }
