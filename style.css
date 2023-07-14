@@ -320,3 +320,59 @@ footer{
     border: none;
     border-radius: 5px;
 }
+
+/* Responsive Medium Device */
+@media screen and (max-width:768px) {
+    header{
+        background-image: none;
+    }
+    .nav-bar,nav,nav > ul,.about-info-section, .skill-section, .resume-section,.footer  {
+        flex-direction: column;
+       
+    }
+    .banner{
+        flex-direction: column;
+        padding: 20px;
+    }
+    nav > ul {
+        margin: -30px;  
+    }
+    .profile-pic, .banner, .footer{
+        width: 100%;
+    }
+
+    .about-section,.work-description{
+        padding: 20px;
+    }
+    .about-info-section{
+       gap: 20px;
+    }
+    .work {
+        margin: 30px;
+    }
+    .resume-section{
+       /* margin-right: 100px; */
+       padding: 20px;
+       margin-left: 0px;
+    }
+
+    .btn-download{
+        margin-left: 150px;
+    }
+    .footer-description{
+        padding: 10px;
+        margin-left: 40px;
+    }
+    .icons{
+        margin-left: 20px;
+    }
+    .input-message input[type="text"],
+    .input-message input[type="email"],textarea
+    
+    {
+        width: 80%;
+    }
+    .btn-download{
+        margin-top: 15px;
+    }
+} 
