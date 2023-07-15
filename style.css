@@ -319,10 +319,19 @@ footer{
 .input-message textarea{
     border: none;
     border-radius: 5px;
+    padding-left: 35px;
+    padding-top: 10px; 
+}
+.copyright{
+    padding-top: 50px;
+    color:  #474747;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
 }
 
 /* Responsive Medium Device */
-@media screen and (max-width:768px) {
+@media screen and (max-width:576px) {
     header{
         background-image: none;
     }
@@ -337,10 +346,13 @@ footer{
     nav > ul {
         margin: -30px;  
     }
+    .nav-bar ul li {
+        margin-top: 30px;
+        padding: 10px;
+    }
     .profile-pic, .banner, .footer{
         width: 100%;
     }
-
     .about-section,.work-description{
         padding: 20px;
     }
@@ -357,22 +369,34 @@ footer{
     }
 
     .btn-download{
-        margin-left: 150px;
+        margin-left: 130px;
+    }
+    .btn-contact{
+        margin-left: 135px;
+    }
+    .footer-title{
+        margin-left: 30px;
     }
     .footer-description{
         padding: 10px;
         margin-left: 40px;
     }
     .icons{
-        margin-left: 20px;
+        margin-left: 25px;
     }
     .input-message input[type="text"],
     .input-message input[type="email"],textarea
     
     {
         width: 80%;
+        margin-left: 0px;
     }
     .btn-download{
         margin-top: 15px;
+        margin-left: 40px;
+    }
+    .input-message {
+       
+        margin-right: 40px;
     }
 } 
